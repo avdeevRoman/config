@@ -1,0 +1,6 @@
+require("roma.maps.plugin.harpoon")
+require("roma.maps.plugin.telescope")
+require("roma.maps.plugin.treesitter")
+require("roma.maps.plugin.hop")
+require("roma.maps.plugin.nerdtree")
+require("roma.maps.plugin.coc")

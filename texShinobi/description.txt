@@ -1,0 +1,22 @@
+Macro:
+M1 - win shift s;
+M2 - command shift 4;
+M3 - win ctrl left;
+M4 - win ctrl right;
+M5 - ctrl left;
+M6 - ctrl right;
+M7 - ctrl insert;
+M8 - shift insert;
+M9 - command c;
+M10 - command v;
+
+Profiles:
+1 - win;
+2 - mac;
+
+Layouts:
+win - swap left ctrl and left alt;
+win1 - d,f - navigation between desktops;
+
+win2
+mac - default mac layout;

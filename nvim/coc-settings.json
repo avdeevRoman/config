@@ -1,0 +1,18 @@
+{
+  "languageserver": {
+    "lua": {
+      "settings": {
+        "Lua": {
+          "diagnostics": {
+            "globals": ["vim"]
+          }
+
+        },
+      },
+      "command": "lua-language-server",
+      "args": ["-E"],
+      "rootPatterns": [".git"],
+      "filetypes": ["lua"]
+    }
+  }
+}

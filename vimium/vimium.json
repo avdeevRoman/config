@@ -1,0 +1,21 @@
+{
+	"name": "Vimium C",
+	"@time": "13.03.2023, 14:59:51",
+	"time": 1678705191628,
+	"environment": {
+		"extension": "1.99.97",
+		"platform": "mac",
+		"chromium": 110
+	},
+	"keyLayout": 2,
+	"keyMappings": [
+		"#!no-check",
+		"mapKey J d",
+		"mapKey K u",
+		"mapKey H J",
+		"mapKey L K",
+		"mapKey b H",
+    ""
+	],
+	"vimSync": true
+}

@@ -1,0 +1,6 @@
+vim.keymap.set('n', '<leader><leader>W', vim.cmd.HopWord)
+vim.keymap.set('n', '<leader><leader>w', vim.cmd.HopWordAC)
+vim.keymap.set('n', '<leader><leader>b', vim.cmd.HopWordBC)
+vim.keymap.set('n', '<leader><leader>f', vim.cmd.HopChar1)
+vim.keymap.set('n', '<leader><leader>j', vim.cmd.HopLine)
+vim.keymap.set('n', '<leader><leader>k', vim.cmd.HopLine)

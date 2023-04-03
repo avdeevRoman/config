@@ -1,0 +1,87 @@
+{
+  "macros": {
+    "m1": "win shift s",
+    "m2": "command shift 4",
+    "m3": "win ctrl left",
+    "m4": "win ctrl right",
+    "m5": "ctrl left",
+    "m6": "ctrl right",
+    "m7": "ctrl insert",
+    "m8": "shift insert",
+    "m9": "command c",
+    "m10": "command v",
+    "m11": "win l",
+    "m12": "command opt l"
+  },
+  "profiles": [
+    {
+      "name": "profile 1",
+      "description": "windows",
+      "layers": [
+        {
+          "name": "top layer",
+          "description": "mainly default windows layout",
+          "remaps": {
+            "left ctrl": "left alt",
+            "left alt": "left ctrl"
+          }
+        },
+        {
+          "name": "fn1 layer",
+          "description": "navigation, screenshot, copy/paste",
+          "remaps": {
+            "d": "m3",
+            "f": "m4",
+            "c": "m7",
+            "v": "m8",
+            "h": "left",
+            "j": "down",
+            "k": "up",
+            "l": "right",
+            "printScreen": "m1"
+          }
+        },
+        {
+          "name": "fn2 layer",
+          "description": "logout",
+          "remaps": {
+            "l": "m11"
+          }
+        }
+      ]
+    },
+    {
+      "name": "profile 2",
+      "description": "default mac layout",
+      "layers": [
+        {
+          "name": "top layer",
+          "description": "default mac layout",
+          "remaps": {}
+        },
+        {
+          "name": "fn1 layer",
+          "description": "navigation, screenshot, copy/paste",
+          "remaps": {
+            "d": "m5",
+            "f": "m6",
+            "c": "m9",
+            "v": "m10",
+            "h": "left",
+            "j": "down",
+            "k": "up",
+            "l": "right",
+            "printScreen": "m2"
+          }
+        },
+        {
+          "name": "fn2 layer",
+          "description": "logout",
+          "remaps": {
+            "l": "m11"
+          }
+        }
+      ]
+    }
+  ]
+}
