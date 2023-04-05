@@ -9,9 +9,9 @@ vim.keymap.set("n", "<leader>i", "<C-i>")
 --buffers
 vim.keymap.set("n", "L", "<C-W><C-L>")
 vim.keymap.set("n", "H", "<C-W><C-H>")
-vim.keymap.set("n", "<leader>w=", "<C-W><C-=>")
-vim.keymap.set("n", "<leader>wh", "10<C-W><")
-vim.keymap.set("n", "<leader>wl", "10<C-W>>")
+vim.keymap.set("n", "<leader>=", "<C-W><C-=>")
+vim.keymap.set("n", "<leader>h", "10<C-W><")
+vim.keymap.set("n", "<leader>l", "10<C-W>>")
 
 --navigations remapping
 vim.keymap.set("n", "gg", "gg0")
